@@ -1,0 +1,6 @@
+artifact_location: file:///Users/diakite/Documents/pythonCodes/scripts/mlruns/1
+creation_time: 1668448010342
+experiment_id: '1'
+last_update_time: 1668448010342
+lifecycle_stage: active
+name: mlflow-demo

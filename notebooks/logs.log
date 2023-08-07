@@ -1,0 +1,155 @@
+2022-12-02 09:57:03,991:INFO:PyCaret Supervised Module
+2022-12-02 09:57:03,992:INFO:ML Usecase: regression
+2022-12-02 09:57:03,993:INFO:version 2.2.2
+2022-12-02 09:57:03,993:INFO:Initializing setup()
+2022-12-02 09:57:03,993:INFO:setup(target=sales, ml_usecase=regression, available_plots={'parameter': 'Hyperparameters', 'residuals': 'Residuals', 'error': 'Prediction Error', 'cooks': 'Cooks Distance', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'vc': 'Validation Curve', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'tree': 'Decision Tree'}, train_size=0.95, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=['month', 'day_of_week'], categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=['day_of_year', 'year'], numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=['date', 'time_series'], normalize=False, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=timeseries, fold=3, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=True, verbose=False, profile=False, profile_kwargs=None, display=None)
+2022-12-02 09:57:03,993:INFO:Checking environment
+2022-12-02 09:57:03,993:INFO:python_version: 3.9.12
+2022-12-02 09:57:03,993:INFO:python_build: ('main', 'Apr  5 2022 01:53:17')
+2022-12-02 09:57:03,993:INFO:machine: x86_64
+2022-12-02 09:57:03,993:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-12-02 09:57:03,994:INFO:Memory: svmem(total=17179869184, available=6598156288, percent=61.6, used=9925464064, free=97165312, active=6493986816, inactive=6485020672, wired=3431477248)
+2022-12-02 09:57:03,994:INFO:Physical Core: 2
+2022-12-02 09:57:03,994:INFO:Logical Core: 4
+2022-12-02 09:57:03,994:INFO:Checking libraries
+2022-12-02 09:57:03,994:INFO:pd==1.4.2
+2022-12-02 09:57:03,994:INFO:numpy==1.21.5
+2022-12-02 09:57:03,994:INFO:sklearn==1.1.1
+2022-12-02 09:57:04,707:INFO:xgboost==1.6.2
+2022-12-02 09:57:04,708:INFO:lightgbm==3.3.3
+2022-12-02 09:57:05,501:INFO:catboost==1.1
+2022-12-02 09:57:06,478:INFO:mlflow==1.30.0
+2022-12-02 09:57:06,478:INFO:Checking Exceptions
+2022-12-02 09:57:06,478:INFO:Declaring global variables
+2022-12-02 09:57:06,478:INFO:USI: 8040
+2022-12-02 09:57:06,478:INFO:pycaret_globals: {'_internal_pipeline', 'y', 'fold_groups_param', 'stratify_param', '_available_plots', 'seed', 'pycaret_globals', 'exp_name_log', 'USI', '_gpu_n_jobs_param', 'transform_target_method_param', 'imputation_classifier', 'experiment__', 'gpu_param', 'X', 'data_before_preprocess', 'X_train', 'iterative_imputation_iters_param', 'fold_param', 'log_plots_param', 'master_model_container', 'imputation_regressor', 'fold_generator', 'target_param', 'n_jobs_param', 'fold_shuffle_param', 'html_param', 'fix_imbalance_method_param', '_all_models', '_all_metrics', '_all_models_internal', 'X_test', 'logging_param', 'create_model_container', 'prep_pipe', 'fix_imbalance_param', 'transform_target_param', 'display_container', 'y_train', 'y_test', '_ml_usecase'}
+2022-12-02 09:57:06,478:INFO:Preparing display monitor
+2022-12-02 09:57:06,479:INFO:Importing libraries
+2022-12-02 09:57:06,479:INFO:Copying data for preprocessing
+2022-12-02 09:57:06,479:INFO:Declaring preprocessing parameters
+2022-12-02 09:57:06,480:INFO:Creating preprocessing pipeline
+2022-12-02 09:57:06,483:INFO:Preprocessing pipeline created successfully
+2022-12-02 09:57:06,483:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-12-02 09:57:06,484:INFO:Creating global containers
+2022-12-02 09:57:06,485:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-12-02 09:57:07,042:INFO:Creating grid variables
+2022-12-02 09:57:07,046:INFO:create_model_container: 0
+2022-12-02 09:57:07,046:INFO:master_model_container: 0
+2022-12-02 09:57:07,046:INFO:display_container: 0
+2022-12-02 10:02:28,064:INFO:PyCaret Supervised Module
+2022-12-02 10:02:28,064:INFO:ML Usecase: regression
+2022-12-02 10:02:28,064:INFO:version 2.2.2
+2022-12-02 10:02:28,064:INFO:Initializing setup()
+2022-12-02 10:02:28,064:INFO:setup(target=sales, ml_usecase=regression, available_plots={'parameter': 'Hyperparameters', 'residuals': 'Residuals', 'error': 'Prediction Error', 'cooks': 'Cooks Distance', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'vc': 'Validation Curve', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'tree': 'Decision Tree'}, train_size=0.95, test_data=None, preprocess=True, imputation_type=iterative, iterative_imputation_iters=5, categorical_features=['month', 'day_of_week'], categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=['day_of_year', 'year'], numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=['date', 'time_series'], normalize=False, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=timeseries, fold=3, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=True, verbose=False, profile=False, profile_kwargs=None, display=None)
+2022-12-02 10:02:28,064:INFO:Checking environment
+2022-12-02 10:02:28,064:INFO:python_version: 3.9.12
+2022-12-02 10:02:28,064:INFO:python_build: ('main', 'Apr  5 2022 01:53:17')
+2022-12-02 10:02:28,064:INFO:machine: x86_64
+2022-12-02 10:02:28,064:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-12-02 10:02:28,064:INFO:Memory: svmem(total=17179869184, available=6271631360, percent=63.5, used=9492897792, free=24555520, active=6258491392, inactive=6244638720, wired=3234406400)
+2022-12-02 10:02:28,065:INFO:Physical Core: 2
+2022-12-02 10:02:28,065:INFO:Logical Core: 4
+2022-12-02 10:02:28,065:INFO:Checking libraries
+2022-12-02 10:02:28,065:INFO:pd==1.4.2
+2022-12-02 10:02:28,065:INFO:numpy==1.21.5
+2022-12-02 10:02:28,065:INFO:sklearn==1.1.1
+2022-12-02 10:02:28,065:INFO:xgboost==1.6.2
+2022-12-02 10:02:28,065:INFO:lightgbm==3.3.3
+2022-12-02 10:02:28,065:INFO:catboost==1.1
+2022-12-02 10:02:28,065:INFO:mlflow==1.30.0
+2022-12-02 10:02:28,066:INFO:Checking Exceptions
+2022-12-02 10:02:28,066:INFO:Declaring global variables
+2022-12-02 10:02:28,066:INFO:USI: 463f
+2022-12-02 10:02:28,066:INFO:pycaret_globals: {'_internal_pipeline', 'y', 'fold_groups_param', 'stratify_param', '_available_plots', 'seed', 'pycaret_globals', 'exp_name_log', 'USI', '_gpu_n_jobs_param', 'transform_target_method_param', 'imputation_classifier', 'experiment__', 'gpu_param', 'X', 'data_before_preprocess', 'X_train', 'iterative_imputation_iters_param', 'fold_param', 'log_plots_param', 'master_model_container', 'imputation_regressor', 'fold_generator', 'target_param', 'n_jobs_param', 'fold_shuffle_param', 'html_param', 'fix_imbalance_method_param', '_all_models', '_all_metrics', '_all_models_internal', 'X_test', 'logging_param', 'create_model_container', 'prep_pipe', 'fix_imbalance_param', 'transform_target_param', 'display_container', 'y_train', 'y_test', '_ml_usecase'}
+2022-12-02 10:02:28,066:INFO:Preparing display monitor
+2022-12-02 10:02:28,067:INFO:Importing libraries
+2022-12-02 10:02:28,067:INFO:Copying data for preprocessing
+2022-12-02 10:02:28,067:INFO:Declaring preprocessing parameters
+2022-12-02 10:02:28,070:INFO:Setting up iterative imputation
+2022-12-02 10:02:28,313:INFO:Creating preprocessing pipeline
+2022-12-02 10:02:28,315:INFO:Preprocessing pipeline created successfully
+2022-12-02 10:02:28,315:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-12-02 10:02:28,315:INFO:Creating global containers
+2022-12-02 10:02:28,315:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-12-02 10:02:28,728:INFO:Creating grid variables
+2022-12-02 10:02:28,731:INFO:create_model_container: 0
+2022-12-02 10:02:28,731:INFO:master_model_container: 0
+2022-12-02 10:02:28,731:INFO:display_container: 0
+2022-12-02 10:02:35,207:INFO:PyCaret Supervised Module
+2022-12-02 10:02:35,207:INFO:ML Usecase: regression
+2022-12-02 10:02:35,207:INFO:version 2.2.2
+2022-12-02 10:02:35,207:INFO:Initializing setup()
+2022-12-02 10:02:35,207:INFO:setup(target=sales, ml_usecase=regression, available_plots={'parameter': 'Hyperparameters', 'residuals': 'Residuals', 'error': 'Prediction Error', 'cooks': 'Cooks Distance', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'vc': 'Validation Curve', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'tree': 'Decision Tree'}, train_size=0.95, test_data=None, preprocess=True, imputation_type=iterative, iterative_imputation_iters=5, categorical_features=['month', 'day_of_week'], categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=['day_of_year', 'year'], numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=['date', 'time_series'], normalize=False, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=timeseries, fold=3, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=True, verbose=False, profile=False, profile_kwargs=None, display=None)
+2022-12-02 10:02:35,207:INFO:Checking environment
+2022-12-02 10:02:35,207:INFO:python_version: 3.9.12
+2022-12-02 10:02:35,207:INFO:python_build: ('main', 'Apr  5 2022 01:53:17')
+2022-12-02 10:02:35,207:INFO:machine: x86_64
+2022-12-02 10:02:35,207:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-12-02 10:02:35,207:INFO:Memory: svmem(total=17179869184, available=6280015872, percent=63.4, used=9479741440, free=43122688, active=6264344576, inactive=6234558464, wired=3215396864)
+2022-12-02 10:02:35,207:INFO:Physical Core: 2
+2022-12-02 10:02:35,207:INFO:Logical Core: 4
+2022-12-02 10:02:35,207:INFO:Checking libraries
+2022-12-02 10:02:35,207:INFO:pd==1.4.2
+2022-12-02 10:02:35,208:INFO:numpy==1.21.5
+2022-12-02 10:02:35,208:INFO:sklearn==1.1.1
+2022-12-02 10:02:35,208:INFO:xgboost==1.6.2
+2022-12-02 10:02:35,208:INFO:lightgbm==3.3.3
+2022-12-02 10:02:35,208:INFO:catboost==1.1
+2022-12-02 10:02:35,208:INFO:mlflow==1.30.0
+2022-12-02 10:02:35,208:INFO:Checking Exceptions
+2022-12-02 10:02:35,208:INFO:Declaring global variables
+2022-12-02 10:02:35,208:INFO:USI: 9c36
+2022-12-02 10:02:35,208:INFO:pycaret_globals: {'_internal_pipeline', 'y', 'fold_groups_param', 'stratify_param', '_available_plots', 'seed', 'pycaret_globals', 'exp_name_log', 'USI', '_gpu_n_jobs_param', 'transform_target_method_param', 'imputation_classifier', 'experiment__', 'gpu_param', 'X', 'data_before_preprocess', 'X_train', 'iterative_imputation_iters_param', 'fold_param', 'log_plots_param', 'master_model_container', 'imputation_regressor', 'fold_generator', 'target_param', 'n_jobs_param', 'fold_shuffle_param', 'html_param', 'fix_imbalance_method_param', '_all_models', '_all_metrics', '_all_models_internal', 'X_test', 'logging_param', 'create_model_container', 'prep_pipe', 'fix_imbalance_param', 'transform_target_param', 'display_container', 'y_train', 'y_test', '_ml_usecase'}
+2022-12-02 10:02:35,208:INFO:Preparing display monitor
+2022-12-02 10:02:35,208:INFO:Importing libraries
+2022-12-02 10:02:35,208:INFO:Copying data for preprocessing
+2022-12-02 10:02:35,209:INFO:Declaring preprocessing parameters
+2022-12-02 10:02:35,210:INFO:Setting up iterative imputation
+2022-12-02 10:02:35,426:INFO:Creating preprocessing pipeline
+2022-12-02 10:02:35,428:INFO:Preprocessing pipeline created successfully
+2022-12-02 10:02:35,428:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-12-02 10:02:35,428:INFO:Creating global containers
+2022-12-02 10:02:35,428:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-12-02 10:02:35,826:INFO:Creating grid variables
+2022-12-02 10:02:35,828:INFO:create_model_container: 0
+2022-12-02 10:02:35,828:INFO:master_model_container: 0
+2022-12-02 10:02:35,828:INFO:display_container: 0
+2022-12-02 10:02:58,263:INFO:PyCaret Supervised Module
+2022-12-02 10:02:58,265:INFO:ML Usecase: regression
+2022-12-02 10:02:58,265:INFO:version 2.2.2
+2022-12-02 10:02:58,265:INFO:Initializing setup()
+2022-12-02 10:02:58,265:INFO:setup(target=sales, ml_usecase=regression, available_plots={'parameter': 'Hyperparameters', 'residuals': 'Residuals', 'error': 'Prediction Error', 'cooks': 'Cooks Distance', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'vc': 'Validation Curve', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'tree': 'Decision Tree'}, train_size=0.95, test_data=None, preprocess=True, imputation_type=iterative, iterative_imputation_iters=5, categorical_features=['month', 'day_of_week'], categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=['day_of_year', 'year'], numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=['date', 'time_series'], normalize=False, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=False, feature_selection_threshold=0.8, feature_selection_method=classic, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=False, data_split_stratify=False, fold_strategy=timeseries, fold=3, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=False, experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=True, verbose=False, profile=False, profile_kwargs=None, display=None)
+2022-12-02 10:02:58,265:INFO:Checking environment
+2022-12-02 10:02:58,266:INFO:python_version: 3.9.12
+2022-12-02 10:02:58,266:INFO:python_build: ('main', 'Apr  5 2022 01:53:17')
+2022-12-02 10:02:58,266:INFO:machine: x86_64
+2022-12-02 10:02:58,266:INFO:platform: macOS-10.16-x86_64-i386-64bit
+2022-12-02 10:02:58,266:INFO:Memory: svmem(total=17179869184, available=6315958272, percent=63.2, used=9380208640, free=94793728, active=6223032320, inactive=6218833920, wired=3157176320)
+2022-12-02 10:02:58,266:INFO:Physical Core: 2
+2022-12-02 10:02:58,266:INFO:Logical Core: 4
+2022-12-02 10:02:58,266:INFO:Checking libraries
+2022-12-02 10:02:58,266:INFO:pd==1.4.2
+2022-12-02 10:02:58,267:INFO:numpy==1.21.5
+2022-12-02 10:02:58,267:INFO:sklearn==1.1.1
+2022-12-02 10:02:58,267:INFO:xgboost==1.6.2
+2022-12-02 10:02:58,267:INFO:lightgbm==3.3.3
+2022-12-02 10:02:58,267:INFO:catboost==1.1
+2022-12-02 10:02:58,267:INFO:mlflow==1.30.0
+2022-12-02 10:02:58,267:INFO:Checking Exceptions
+2022-12-02 10:02:58,267:INFO:Declaring global variables
+2022-12-02 10:02:58,267:INFO:USI: 6603
+2022-12-02 10:02:58,267:INFO:pycaret_globals: {'_internal_pipeline', 'y', 'fold_groups_param', 'stratify_param', '_available_plots', 'seed', 'pycaret_globals', 'exp_name_log', 'USI', '_gpu_n_jobs_param', 'transform_target_method_param', 'imputation_classifier', 'experiment__', 'gpu_param', 'X', 'data_before_preprocess', 'X_train', 'iterative_imputation_iters_param', 'fold_param', 'log_plots_param', 'master_model_container', 'imputation_regressor', 'fold_generator', 'target_param', 'n_jobs_param', 'fold_shuffle_param', 'html_param', 'fix_imbalance_method_param', '_all_models', '_all_metrics', '_all_models_internal', 'X_test', 'logging_param', 'create_model_container', 'prep_pipe', 'fix_imbalance_param', 'transform_target_param', 'display_container', 'y_train', 'y_test', '_ml_usecase'}
+2022-12-02 10:02:58,267:INFO:Preparing display monitor
+2022-12-02 10:02:58,267:INFO:Importing libraries
+2022-12-02 10:02:58,267:INFO:Copying data for preprocessing
+2022-12-02 10:02:58,267:INFO:Declaring preprocessing parameters
+2022-12-02 10:02:58,269:INFO:Setting up iterative imputation
+2022-12-02 10:02:58,479:INFO:Creating preprocessing pipeline
+2022-12-02 10:02:58,481:INFO:Preprocessing pipeline created successfully
+2022-12-02 10:02:58,482:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2022-12-02 10:02:58,482:INFO:Creating global containers
+2022-12-02 10:02:58,482:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2022-12-02 10:02:58,857:INFO:Creating grid variables
+2022-12-02 10:02:58,859:INFO:create_model_container: 0
+2022-12-02 10:02:58,859:INFO:master_model_container: 0
+2022-12-02 10:02:58,859:INFO:display_container: 0

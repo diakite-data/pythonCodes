@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/diakite/Documents/pythonCodes/scripts/mlruns/1/3b2ee1c675c74e498960d94dc9fd3bc4/artifacts
+end_time: 1668448018259
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+run_id: 3b2ee1c675c74e498960d94dc9fd3bc4
+run_name: run_0
+run_uuid: 3b2ee1c675c74e498960d94dc9fd3bc4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1668448010778
+status: 3
+tags: []
+user_id: diakite
